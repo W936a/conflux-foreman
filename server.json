@@ -1,0 +1,23 @@
+{
+  "name": "io.github.W936a/conflux-foreman",
+  "displayName": "FOREMAN — Business Operations MCP",
+  "description": "Client management, invoicing, quotes, payments, VAT calculation — complete business operations server for the MCP ecosystem.",
+  "vendor": "CONFLUX SYSTEMS (PTY) LTD",
+  "websiteUrl": "https://github.com/W936a/conflux-foreman",
+  "remotes": [
+    {
+      "url": "http://178.105.81.178:8084/mcp",
+      "type": "streamable-http"
+    }
+  ],
+  "tools": [
+    "add_client", "get_clients", "get_client", "update_client", "delete_client",
+    "create_invoice", "get_invoices", "get_invoice", "update_invoice_status",
+    "add_payment", "get_payments",
+    "create_quote", "get_quotes", "get_quote", "convert_quote_to_invoice",
+    "generate_invoice_pdf",
+    "get_revenue_summary", "get_overdue_invoices", "get_client_statement",
+    "delete_all_data"
+  ],
+  "version": "1.1.0"
+}
